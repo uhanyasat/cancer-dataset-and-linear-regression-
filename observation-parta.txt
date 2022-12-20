@@ -1,0 +1,153 @@
+>> main
+
+mdl = 
+
+
+Linear regression model:
+    y ~ 1 + x1
+
+Estimated Coefficients:
+                   Estimate       SE       tStat       pValue   
+                   ________    ________    ______    ___________
+
+    (Intercept)    0.61415      0.01514    40.566    2.2852e-154
+    x1             0.74509     0.052773    14.119     6.9347e-38
+
+
+Number of observations: 464, Error degrees of freedom: 462
+Root Mean Squared Error: 0.27
+R-squared: 0.301,  Adjusted R-Squared: 0.3
+F-statistic vs. constant model: 199, p-value = 6.93e-38
+
+mdl1 = 
+
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+
+Estimated Coefficients:
+                    Estimate         SE           tStat       pValue
+                   __________    __________    ___________    ______
+
+    (Intercept)    7.5334e-17    3.0785e-09     2.4471e-08      1   
+    x1               0.074822    6.9065e-09     1.0833e+07      0   
+    x2                0.46067    1.2465e-08     3.6957e+07      0   
+    x3                0.18428    1.3846e-08      1.331e+07      0   
+    x4               0.055364    8.2027e-09     6.7495e+06      0   
+    x5                -0.2213    1.0242e-08    -2.1607e+07      0   
+    x6                0.50849    6.0013e-09      8.473e+07      0   
+    x7              -0.066413    1.0084e-08    -6.5863e+06      0   
+    x8                0.23089    6.2927e-09     3.6692e+07      0   
+    x9              -0.062164     8.489e-09    -7.3228e+06      0   
+
+
+Number of observations: 139, Error degrees of freedom: 129
+Root Mean Squared Error: 1.66e-08
+R-squared: 1,  Adjusted R-Squared: 1
+F-statistic vs. constant model: 8.07e+15, p-value = 0
+
+mdl2 = 
+
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+
+Estimated Coefficients:
+                    Estimate      SE    tStat    pValue
+                   ___________    __    _____    ______
+
+    (Intercept)    -1.8766e-16    0     -Inf       0   
+    x1                0.074822    0      Inf       0   
+    x2                 0.46067    0      Inf       0   
+    x3                 0.18428    0      Inf       0   
+    x4                0.055364    0      Inf       0   
+    x5                 -0.2213    0     -Inf       0   
+    x6                 0.50849    0      Inf       0   
+    x7               -0.066413    0     -Inf       0   
+    x8                 0.23089    0      Inf       0   
+    x9               -0.062164    0     -Inf       0   
+
+
+Number of observations: 140, Error degrees of freedom: 130
+R-squared: 1,  Adjusted R-Squared: 1
+F-statistic vs. constant model: Inf, p-value = 0
+
+mdl3 = 
+
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+
+Estimated Coefficients:
+                    Estimate      SE    tStat    pValue
+                   ___________    __    _____    ______
+
+    (Intercept)    -1.5013e-16    0     -Inf       0   
+    x1                0.074822    0      Inf       0   
+    x2                 0.46067    0      Inf       0   
+    x3                 0.18428    0      Inf       0   
+    x4                0.055364    0      Inf       0   
+    x5                 -0.2213    0     -Inf       0   
+    x6                 0.50849    0      Inf       0   
+    x7               -0.066413    0     -Inf       0   
+    x8                 0.23089    0      Inf       0   
+    x9               -0.062164    0     -Inf       0   
+
+
+Number of observations: 140, Error degrees of freedom: 130
+R-squared: 1,  Adjusted R-Squared: 1
+F-statistic vs. constant model: Inf, p-value = 0
+
+mdl4 = 
+
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+
+Estimated Coefficients:
+                    Estimate     SE    tStat    pValue
+                   __________    __    _____    ______
+
+    (Intercept)    2.2519e-16    0      Inf       0   
+    x1               0.074822    0      Inf       0   
+    x2                0.46067    0      Inf       0   
+    x3                0.18428    0      Inf       0   
+    x4               0.055364    0      Inf       0   
+    x5                -0.2213    0     -Inf       0   
+    x6                0.50849    0      Inf       0   
+    x7              -0.066413    0     -Inf       0   
+    x8                0.23089    0      Inf       0   
+    x9              -0.062164    0     -Inf       0   
+
+
+Number of observations: 140, Error degrees of freedom: 130
+R-squared: 1,  Adjusted R-Squared: 1
+F-statistic vs. constant model: Inf, p-value = 0
+
+mdl5 = 
+
+
+Linear regression model:
+    y ~ 1 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9
+
+Estimated Coefficients:
+                    Estimate         SE           tStat       pValue
+                   __________    __________    ___________    ______
+
+    (Intercept)    2.6273e-16    2.0419e-09     1.2867e-07      1   
+    x1               0.074822    4.5319e-09      1.651e+07      0   
+    x2                0.46067    8.4242e-09     5.4684e+07      0   
+    x3                0.18428    7.6792e-09     2.3997e+07      0   
+    x4               0.055364    4.7789e-09     1.1585e+07      0   
+    x5                -0.2213    7.5404e-09    -2.9349e+07      0   
+    x6                0.50849    3.9025e-09      1.303e+08      0   
+    x7              -0.066413     6.365e-09    -1.0434e+07      0   
+    x8                0.23089    5.1566e-09     4.4776e+07      0   
+    x9              -0.062164    6.5463e-09     -9.496e+06      0   
+
+
+Number of observations: 140, Error degrees of freedom: 130
+Root Mean Squared Error: 1.05e-08
+R-squared: 1,  Adjusted R-Squared: 1
+F-statistic vs. constant model: 2.24e+16, p-value = 0
+>> 
